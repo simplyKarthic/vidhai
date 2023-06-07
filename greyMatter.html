@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Inner Page - Vidhai Bootstrap Template</title>
+  <title>ViDHAI - Grey Matter Solutions</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -28,11 +28,47 @@
 
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/productMenu.css" rel="stylesheet">
+  <style>
+    .styled-table {
+      border-collapse: collapse;
+      margin: 25px 0;
+      font-size: 0.9em;
+      font-family: sans-serif;
+      min-width: 400px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
 
+    .styled-table thead tr {
+      background-color: #273E92;
+      color: #ffffff;
+      text-align: left;
+    }
+
+    .styled-table th,
+    .styled-table td {
+      padding: 12px 15px;
+    }
+
+    .styled-table tbody tr {
+      border-bottom: 1px solid #dddddd;
+    }
+
+    .styled-table tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+    }
+
+    .styled-table tbody tr:last-of-type {
+      border-bottom: 2px solid #273E92;
+    }
+
+    .styled-table tbody tr.active-row {
+      font-weight: bold;
+      color: #273E92;
+    }
+  </style>
 </head>
 
 <body>
-
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
@@ -58,19 +94,19 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto active" href="/index.html">Home</a></li>
           <li><a class="nav-link scrollto" href="timeLine.html">Our Journey</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto" href="/index.html#about">About</a></li>
+          <li><a class="nav-link scrollto " href="/portfolio.html">Portfolio</a></li>
+          <li class="dropdown"><a href="#featured-services"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="/recycling.html">Recycling of Plastics</a></li>
-              <li><a href="#">MasterBatches</a></li>
-              <li><a href="#">Grey Matter Solutions</a></li>
-              <li><a href="#">Responsible Recycling</a></li>
+              <li><a href="/masterBatch.html">MasterBatches</a></li>
+              <li><a href="/greyMatter.html">Grey Matter Solutions</a></li>
+              <li><a href="/responsible.html">Responsible Recycling</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto" href="/index.html#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -81,125 +117,340 @@
   <main id="main" data-aos="fade-up">
 
     <div class="wrapper">
-      <h2>RECYCLING OF PLASTICS</h2>
+      <h2>GREY MATTER SOLUTIONS
+      </h2>
       <h6>Transforming plastic waste into valuable resources through innovative recycling methods.</h6>
       <nav class="tabs">
         <div class="selector"></div>
-        <a href="#products" class="active"><i class="fas fa-hand-rock"></i>OUR PRODUCTS</a>
-        <a href="#markets"><i class="fas fa-bolt"></i>OUR MARKETS</a>
-        <a href="#services"><i class="fas fa-burn"></i>OUR SERVICES</a>
+        <a href="#products" class="active"><i class="fas fa-hand-rock"></i>AIDINGS AND COMSUMABLES</a>
+        <a href="#markets"><i class="fas fa-bolt"></i>MACHINED PARTS</a>
       </nav>
     </div>
 
     <div class="container">
-      <div id="products" class="content show">
+
+      <div id="products" class="content">
+
+        <div class="section-title">
+          <h3>Grey Matter Solutions <span>VACUUM</span></h3>
+        </div>
         <div class="row">
-          <div class="col-lg-6 " data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/products/1.jpeg" class="img-fluid d-flex justify-content-center" alt=""
-              style="padding-top: 60px;">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+              <div class="d-flex flex-column align-items-center">
+                <img src="assets/img/products/3-1-1.jpeg" class="img-fluid" alt="" style="max-height: 100%; max-width: 100%;">
+                <br>
+                <img src="assets/img/products/3-1-2.png" class="img-fluid" alt="" style="max-height: 100%; max-width: 100%;">
+              </div>
+            </div>
           </div>
+
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
             data-aos-delay="100">
-
-            ViDHAI is able to handle a wide range of plastics including Post-Production, Post-Industrial and
-            Post-Consumer.
-            <br><br>
-            We can handle any volume of materials from small to large scale collections.
-            <br><br>
-
-            ViDHAI is one of the few companies in Chennai which deals with both Commodity and Engineering plastics.
-            <br><br>
-            <ul>
-              <li>POM</li>
-              <li>PCABS</li>
-              <li>PC</li>
-              <li>PA 6 (UF/GF)</li>
-              <li>PA 66 (UF/GF)</li>
-              <li>ABS</li>
-              <li>PE (Film/Inj)</li>
-              <li>PP (CP/GF)</li>
-              <li>PP (CP/GF)</li>
-            </ul>
-
-            The materials available in the form Reprocessed (RP) and Regrind (RG) as per the customer’s need.
-            <br><br>
-
+            <p>
+              A vacuum bag provides pressure and vacuum, which always results in a better quality laminate. Pressure
+              compacts the laminate, providing good consolidation and interlaminar bonds. Vacuum draws out the volatiles
+              and trapped air, resulting in a low void content. Both help to improve resin flow. The latest generation
+              vacuum bags for ambient cure compete on cost with polyethylene sheet, but offer superior performance.
+            <table class="styled-table">
+              <thead>
+                <tr>
+                  <th>DESCRIPTION</th>
+                  <th>Micron</th>
+                  <th>WIDTH (mm)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Vacuum Film</td>
+                  <td>55</td>
+                  <td>1500</td>
+                </tr>
+                <tr class="active-row">
+                  <td>Vacuum Film</td>
+                  <td>55</td>
+                  <td>2000</td>
+                </tr>
+                <tr>
+                  <td>Vacuum Film</td>
+                  <td>55</td>
+                  <td>3000</td>
+                </tr>
+                <tr class="active-row">
+                  <td>Vacuum Film</td>
+                  <td>55</td>
+                  <td>3500</td>
+                </tr>
+                <tr>
+                  <td>Vacuum Film</td>
+                  <td>55</td>
+                  <td>4500</td>
+                </tr>
+                <tr class="active-row">
+                  <td>Vacuum Film</td>
+                  <td>65</td>
+                  <td>1500</td>
+                </tr>
+                <tr>
+                  <td>Vacuum Film</td>
+                  <td>65</td>
+                  <td>3000</td>
+                </tr>
+                <tr class="active-row">
+                  <td>Vacuum Film</td>
+                  <td>65</td>
+                  <td>6000</td>
+                </tr>
+                <tr>
+                  <td>Vacuum Film</td>
+                  <td>75</td>
+                  <td>6000</td>
+                </tr>
+                <tr class="active-row">
+                  <td>Vacuum Film</td>
+                  <td>75</td>
+                  <td>8000</td>
+                </tr>
+              </tbody>
+            </table>
+            </p>
           </div>
         </div>
-      </div>
 
-      <div id="markets" class="content">
+        <hr class="rounded">
+<br><br>
+        <div class="section-title">
+          <h3><span>SPIRAL AND HOSE</span></h3>
+        </div>
         <div class="row">
-          <div class="col-lg-6 " data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/products/2.jpeg" class="img-fluid d-flex justify-content-center" alt=""
-              style="padding-top: 60px;">
-          </div>
+
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
             data-aos-delay="100">
             <p>
               <br>
-
-              ViDHAI has a truly good relationship with its market, our area of target of procuring wastes from various
-              industries and area sectors.
+              Our Spiral tube is a half tubular coiled structure used to assist the flow of resin during vacuum infusion
+              process. It is placed under the feed line.They are used to establish consistent vacuum throughout the
+              mould evenly. This is used as it maintains vacuum throughout the mould even at the full vacuum as it is
+              capable of withstanding negative pressure without collapsing.
               <br><br>
-            <ul>
-              <li>Automobile</li>
-              <li>Packaging</li>
-              <li>FMCG</li>
-              <li> Trust and Long-Term Relationship is our promise to you.</li>
-            </ul>
+            <table class="styled-table">
+              <thead>
+                <tr>
+                  SPIRAL HOSE
+                </tr>
+                <tr>
+                  <th>ID (mm)</th>
+                  <th>PITCH (mm)</th>
+                  <th>THICKNESS (mm)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>8</td>
+                  <td>16 - 18</td>
+                  <td>1 mm</td>
+                </tr>
+                <tr class="active-row">
+                  <td>8</td>
+                  <td>16 - 18 </td>
+                  <td>1.5 mm</td>
+                </tr>
+                <tr>
+                  <td>8.5</td>
+                  <td>16 - 18</td>
+                  <td>1.5 mm</td>
+                </tr>
+                <tr class="active-row">
+                  <td>10</td>
+                  <td>18 - 20</td>
+                  <td>1.5 mm</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>18 - 20</td>
+                  <td>1.5 mm</td>
+                </tr>
+                <tr class="active-row">
+                  <td>12</td>
+                  <td>18 - 20</td>
+                  <td>2 mm</td>
+                </tr>
+              </tbody>
+            </table>
 
-
-            ViDHAI’s quality control systems surely bring you the best quality each time every time.
-            <br><br>
-
-            Please feel free to contact us to find out more about our unique service and diverse range of products with
-            care.
-            <br><br>
-
-            We supply reliable quantity of Raw Materials / Scrap as per request.</p>
-            <br>
           </div>
-        </div>
-      </div>
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <div class="d-flex justify-content-center align-items-center" style="height: 80vh;">
+              <div class="d-flex flex-column align-items-center">
+                <img src="assets/img/products/3-1-3.jpeg" class="img-fluid" alt="" style="max-height: 100%; max-width: 100%;">
+                <br>
+              </div>
+            </div>
+          </div>
 
-      <div id="services" class="content">
+        </div>
+        <hr class="rounded">
+<br><br>
+        <div class="section-title">
+          <h3><span>PEELPY</span></h3>
+        </div>
         <div class="row">
-          <div class="col-lg-6 " data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/products/3.jpeg" class="img-fluid d-flex justify-content-center" alt=""
-              style="padding-top: 60px;">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <div class="d-flex justify-content-center align-items-center" style="height: 80vh;">
+              <div class="d-flex flex-column align-items-center">
+                <img src="assets/img/products/3-1-4.jpeg" class="img-fluid" alt="" style="max-height: 100%; max-width: 100%;">
+                <br>
+                <img src="assets/img/products/3-1-5.jpeg" class="img-fluid" alt="" style="max-height: 100%; max-width: 100%;">
+              </div>
+            </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
             data-aos-delay="100">
             <p>
+              Peel ply, also known as Release fabric is a plain woven but porous nylon fabric with red/blue lines. When
+              the laminate is cured and peel ply is peeled off, you'll get a smooth and harmful edges free surface.
+              <br>
+              <br>
+              Apart from keeping the surface smooth, peel ply leaves a texture on the surface with is helpful in bonding
+              the laminate to another substrate.
               <br><br>
-              Our profession team of purchasers are on hand to consult on your product and help to achieve maximum value
-              on it.
-              <br><br>
-              Our specialised knowledge on Plastics and their recycling applications makes ViDHAI the perfect partner to
-              meet your needs.
-              <br><br>
-              <b>What do we do?</b>
-            <ul>
-              <li>Our local purchasing teams personally visit and consult with the companies clearly. Collecting
-                information on material source, taking the photos and samples are the key to providing maximum product
-                value.
-              </li>
-              <li>Logistics is based on the terms and conditions with the companies.
-              </li>
-              <li>Once the material arrives destination, our teams are on hand to make sure material is recycled to its
-                highest functional use with great quality.
-              </li>
-              <li>We assures you of timely payment and continuous technical support.
-              </li>
+              When used in wet-layup process, peel ply allows you to remove trapped air without displacing the
+              carbon/glass fabrics.
+              <br>
+            <table class="styled-table">
+              <thead>
 
-            </ul>
-            <br><br>
+                <tr>
+                  <th>Width</th>
+                  <th>GSM</th>
+                  <th>Yarn</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>100 mm</td>
+                  <td>85</td>
+                  <td>Red / Blue</td>
+                </tr>
+                <tr class="active-row">
+                  <td>250 mm</td>
+                  <td>85</td>
+                  <td>Red / Blue</td>
+
+                </tr>
+                <tr>
+                  <td>500 mm</td>
+                  <td>85</td>
+                  <td>Red / Blue</td>
+                </tr>
+                <tr class="active-row">
+                  <td>750 mm</td>
+                  <td>85</td>
+                  <td>Red / Blue</td>
+                </tr>
+                <tr>
+                  <td>1000 mm </td>
+                  <td>85</td>
+                  <td>Red / Blue</td>
+                </tr>
+                <tr class="active-row">
+                  <td>500 mm </td>
+                  <td>105</td>
+                  <td>Red / Blue</td>
+                </tr>
+                <tr class="active-row">
+                  <td>1000 mm </td>
+                  <td>105</td>
+                  <td>Red / Blue</td>
+                </tr>
+              </tbody>
+            </table>
+
             </p>
             <br>
           </div>
         </div>
+
+        <hr class="rounded">
+        <br><br>
+        <div class="section-title">
+          <h3><span>FEED HOSE</span></h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
+            data-aos-delay="100">
+            <p>
+              Feed hose are used to feed the resin into the mould and to collect the resin in the catchpot. Our hose can
+              withstand 120 degree heat.
+              <br>
+              <br>
+            <table class="styled-table">
+              <thead>
+                <tr>
+                  <th>ID (mm)</th>
+                  <th>THICKNESS (mm)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>8</td>
+                  <td>1 mm</td>
+                </tr>
+                <tr class="active-row">
+                  <td>8.5</td>
+                  <td>1.5 mm</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>1.5 mm</td>
+                </tr>
+                <tr class="active-row">
+                  <td>12</td>
+                  <td>1.5 mm</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>2 mm</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+            </p>
+            <br>
+          </div>
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <div class="d-flex justify-content-center align-items-center" style="height: 50vh;">
+              <div class="d-flex flex-column align-items-center">
+                <img src="assets/img/products/3-1-6.jpeg" class="img-fluid" alt="" style="max-height: 100%; max-width: 100%;">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
       </div>
+
+      <div id="markets" class="content show">
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <div class="d-flex justify-content-center align-items-center" style="height: 50vh;">
+              <div class="d-flex flex-column align-items-center">
+                <img src="assets/img/products/3.jpeg" class="img-fluid" alt="" style="max-height: 100%; max-width: 100%;">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
+            data-aos-delay="100">
+            <p>
+              ViDHAI started dealing with supply of Aiding material and Consumables for the composite industries throughout India from 2016.
+<br><br>
+              ViDHAI also manufacture all type of engineering compounds such as plastic gears, bush, brackets, washers, automatic components, rollers, etc. with a complete design, quality and customer support team.
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
 
   </main><!-- End #main -->
@@ -212,8 +463,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-6">
             <h4>Join Our Newsletter</h4>
-            <p>Stay informed and inspired with our monthly newsletter, packed with the latest updates, tips, and
-              insights on sustainability</p>
+            <p>Stay informed and inspired with our monthly newsletter, packed with the latest updates, tips, and insights on sustainability</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
@@ -233,19 +483,18 @@
               Factory : 7/71A, Gandhi street, Sikkarayapuram, Chennai-600069.<br>
               <br><br>
               <strong>Phone:</strong> +91 81222 27633<br>
-              <strong>Email:</strong>responsible@vidhairecycling.in<br>
+              <strong>Email: </strong><a href="responsible@vidhairecycling.in">responsible@vidhairecycling.in</a><br>
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Our Journey</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Portfolio</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Products</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/timeLine.html">Our Journey</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/index.html#about">About</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/portfolio.html">Portfolio</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/index.html#contact">Contact</a></li>
 
             </ul>
           </div>
@@ -253,24 +502,21 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Products</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Recycling of Plastics</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">MasterBatches</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Grey Matter Solutions</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/recycling.html">Recycling of Plastics</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/masterBatch.html">MasterBatches</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/greyMatter.html">Grey Matter Solutions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="responsible.html">Responsible</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
-            <p>Stay connected and join the conversation on our social networks for the latest updates and insights on
-              sustainable recycling.</p>
+            <p>Stay connected and join the conversation on our social networks for the latest updates and insights on sustainable recycling.</p>
             <div class="social-links mt-3">
               <a href="https://twitter.com/recyclingvidhai" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="https://www.facebook.com/Vidhairecycling/" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="https://www.instagram.com/vidhairecycling/" class="instagram"><i
-                  class="bx bxl-instagram"></i></a>
-              <a href="https://www.linkedin.com/company/vidhaitraders" class="linkedin"><i
-                  class="bx bxl-linkedin"></i></a>
+              <a href="https://www.instagram.com/vidhairecycling/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/vidhaitraders" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
 
@@ -282,10 +528,7 @@
       <div class="copyright">
         &copy; Copyright <span id="currentYear"></span><strong> ViDHAI</strong>. All Rights Reserved
       </div>
-
-      <div class="credits">
-        Designed by <a href="https://simplyKarthic.me/">Karthic</a>
-      </div>
+      
     </div>
   </footer><!-- End Footer -->
 
